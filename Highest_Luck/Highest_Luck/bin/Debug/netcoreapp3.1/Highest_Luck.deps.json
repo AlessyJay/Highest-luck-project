@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Highest_Luck/1.0.0": {
+        "runtime": {
+          "Highest_Luck.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Highest_Luck/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
