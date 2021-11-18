@@ -16,3 +16,4 @@ D:\Vistula\OOP\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\Highest_Luck\H
 D:\Vistula\OOP\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\Highest_Luck\Highest_Luck\obj\Debug\netcoreapp3.1\Highest_Luck.genruntimeconfig.cache
 D:\Vistula\OOP\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\Highest_Luck\Highest_Luck\obj\Debug\netcoreapp3.1\Highest_Luck.Properties.Resources.resources
 D:\Vistula\OOP\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\Highest_Luck\Highest_Luck\obj\Debug\netcoreapp3.1\Highest_Luck.Form2.resources
+D:\Vistula\OOP\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\Highest_Luck\Highest_Luck\obj\Debug\netcoreapp3.1\Highest_Luck.Form3.resources
