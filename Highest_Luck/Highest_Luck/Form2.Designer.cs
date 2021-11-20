@@ -234,7 +234,6 @@ namespace Highest_Luck
             // 
             // pictureBox21
             // 
-            this.pictureBox21.BackgroundImage = global::Highest_Luck.Properties.Resources.confused;
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox21.Location = new System.Drawing.Point(344, 168);
@@ -257,7 +256,6 @@ namespace Highest_Luck
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackgroundImage = global::Highest_Luck.Properties.Resources.mark;
             this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox13.Location = new System.Drawing.Point(270, 168);
@@ -269,7 +267,6 @@ namespace Highest_Luck
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackgroundImage = global::Highest_Luck.Properties.Resources.man;
             this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox14.Location = new System.Drawing.Point(196, 168);
@@ -281,7 +278,6 @@ namespace Highest_Luck
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackgroundImage = global::Highest_Luck.Properties.Resources.bluebird;
             this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox15.Location = new System.Drawing.Point(122, 168);
@@ -304,7 +300,6 @@ namespace Highest_Luck
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackgroundImage = global::Highest_Luck.Properties.Resources.dog;
             this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox16.Location = new System.Drawing.Point(48, 168);
@@ -342,7 +337,6 @@ namespace Highest_Luck
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackgroundImage = global::Highest_Luck.Properties.Resources.confused;
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox20.Location = new System.Drawing.Point(344, 168);
@@ -357,6 +351,7 @@ namespace Highest_Luck
             this.previewPic3.Location = new System.Drawing.Point(365, 24);
             this.previewPic3.Name = "previewPic3";
             this.previewPic3.Size = new System.Drawing.Size(147, 111);
+            this.previewPic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.previewPic3.TabIndex = 11;
             this.previewPic3.TabStop = false;
             // 
@@ -373,7 +368,6 @@ namespace Highest_Luck
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackgroundImage = global::Highest_Luck.Properties.Resources.mark;
             this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox9.Location = new System.Drawing.Point(270, 168);
@@ -385,7 +379,6 @@ namespace Highest_Luck
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackgroundImage = global::Highest_Luck.Properties.Resources.man;
             this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Location = new System.Drawing.Point(196, 168);
@@ -397,7 +390,6 @@ namespace Highest_Luck
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackgroundImage = global::Highest_Luck.Properties.Resources.bluebird;
             this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Location = new System.Drawing.Point(122, 168);
@@ -420,7 +412,6 @@ namespace Highest_Luck
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackgroundImage = global::Highest_Luck.Properties.Resources.dog;
             this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox12.Location = new System.Drawing.Point(48, 168);
@@ -458,15 +449,16 @@ namespace Highest_Luck
             // 
             // previewPic2
             // 
+            this.previewPic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.previewPic2.Location = new System.Drawing.Point(398, 19);
             this.previewPic2.Name = "previewPic2";
             this.previewPic2.Size = new System.Drawing.Size(147, 111);
+            this.previewPic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.previewPic2.TabIndex = 12;
             this.previewPic2.TabStop = false;
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackgroundImage = global::Highest_Luck.Properties.Resources.confused;
             this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox19.Location = new System.Drawing.Point(344, 168);
@@ -489,7 +481,6 @@ namespace Highest_Luck
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::Highest_Luck.Properties.Resources.mark;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Location = new System.Drawing.Point(270, 168);
@@ -501,7 +492,6 @@ namespace Highest_Luck
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = global::Highest_Luck.Properties.Resources.man;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Location = new System.Drawing.Point(196, 168);
@@ -513,7 +503,6 @@ namespace Highest_Luck
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = global::Highest_Luck.Properties.Resources.bluebird;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Location = new System.Drawing.Point(122, 168);
@@ -536,7 +525,6 @@ namespace Highest_Luck
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImage = global::Highest_Luck.Properties.Resources.dog;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Location = new System.Drawing.Point(48, 168);
@@ -574,15 +562,16 @@ namespace Highest_Luck
             // 
             // previewPic1
             // 
+            this.previewPic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.previewPic1.Location = new System.Drawing.Point(365, 24);
             this.previewPic1.Name = "previewPic1";
             this.previewPic1.Size = new System.Drawing.Size(147, 106);
+            this.previewPic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.previewPic1.TabIndex = 12;
             this.previewPic1.TabStop = false;
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackgroundImage = global::Highest_Luck.Properties.Resources.confused;
             this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox18.Location = new System.Drawing.Point(344, 168);
@@ -605,7 +594,6 @@ namespace Highest_Luck
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImage = global::Highest_Luck.Properties.Resources.mark;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Location = new System.Drawing.Point(270, 168);
@@ -617,7 +605,6 @@ namespace Highest_Luck
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::Highest_Luck.Properties.Resources.man;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Location = new System.Drawing.Point(196, 168);
@@ -629,7 +616,6 @@ namespace Highest_Luck
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::Highest_Luck.Properties.Resources.bluebird;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Location = new System.Drawing.Point(122, 168);
@@ -652,7 +638,6 @@ namespace Highest_Luck
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Highest_Luck.Properties.Resources.dog;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Location = new System.Drawing.Point(48, 168);
@@ -717,6 +702,7 @@ namespace Highest_Luck
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.settingBox.ResumeLayout(false);
             this.settingBox.PerformLayout();
             this.playersBox.ResumeLayout(false);
