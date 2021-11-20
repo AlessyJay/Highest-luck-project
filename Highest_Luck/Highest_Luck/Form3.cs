@@ -26,7 +26,11 @@ namespace Highest_Luck
         public PictureBox pic3;
         public PictureBox pic4;
 
-        int roundStart = 1;
+        Random random = new Random();
+        int remainRound = 1;
+        int[] score = new int[4];
+        int[] bank = new int[4];
+        int index = 0;
 
         public Form3()
         {
@@ -52,21 +56,208 @@ namespace Highest_Luck
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            lblRemainRound.Text = roundStart.ToString();
+            lblRemainRound.Text = remainRound.ToString();
             if (numPlayer.Text == "3")
             {
                 player3.Visible = true;
             }
-            if(numPlayer.Text == "4")
+            if (numPlayer.Text == "4")
             {
                 player3.Visible = true;
                 player4.Visible = true;
             }
+            player1.BackColor = Color.Green;
+            bank1.Text = bank[0].ToString();
+            bank2.Text = bank[1].ToString();
+            bank3.Text = bank[2].ToString();
+            bank4.Text = bank[3].ToString();
+
+            score1.Text = score[0].ToString();
+            score2.Text = score[1].ToString();
+            score3.Text = score[2].ToString();
+            score4.Text = score[3].ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int r = random.Next(1, (6 + 1));
+            randomNumber.Text = r.ToString();
+            lblRemainRound.Text = remainRound.ToString();
+
+            if (numPlayer.Text == "2")
+            {
+                if (index == 0)
+                {
+                    int keep1 = bank[0] = r;
+                    bank1.Text = keep1.ToString();
+                    player1.BackColor = Color.Green;
+                    player2.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[0] += keep1;
+                    score1.Text = score[0].ToString();
+                }
+                else
+                {
+                    int keep2 = bank[1] = r;
+                    bank2.Text = keep2.ToString();
+                    player2.BackColor = Color.Green;
+                    player1.BackColor = Color.WhiteSmoke;
+                    index -= 1;
+                    remainRound += 1;
+                    score[1] += keep2;
+                    score2.Text = score[1].ToString();
+                }
+                if (remainRound.ToString() == lblMaxRound.Text)
+                {
+                    button1.Enabled = false;
+                    if (score[0] < score[1])
+                    {
+                        MessageBox.Show($"Player {lblName2.Text} win!");
+                    }else
+                    {
+                        MessageBox.Show($"Player {lblName1.Text} win!");
+                    }
+                }
+            }
+
+            if (numPlayer.Text == "3")
+            {
+                if (index == 0)
+                {
+                    int keep1 = bank[0] = r;
+                    bank1.Text = keep1.ToString();
+                    player1.BackColor = Color.Green;
+                    player2.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[0] += keep1;
+                    score1.Text = score[0].ToString();
+                }
+                else if (index == 1)
+                {
+                    int keep2 = bank[1] = r;
+                    bank2.Text = keep2.ToString();
+                    player2.BackColor = Color.Green;
+                    player1.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[1] += keep2;
+                    score2.Text = score[1].ToString();
+                }
+                else
+                {
+                    int keep3 = bank[2] = r;
+                    bank3.Text = keep3.ToString();
+                    player2.BackColor = Color.WhiteSmoke;
+                    player1.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.Green;
+                    index -= index;
+                    remainRound += 1;
+                    score[2] += keep3;
+                    score3.Text = score[2].ToString();
+                }
+                if (remainRound.ToString() == lblMaxRound.Text)
+                {
+                    button1.Enabled = false;
+                    if (score[0] < score[1] &&
+                        score[2] < score[1] &&
+                        score[3] < score[1])
+                    {
+                        MessageBox.Show($"Player {lblName2.Text} win!");
+                    }
+                    else if (score[1] < score[0] &&
+                       score[2] < score[0] &&
+                       score[3] < score[0])
+                    {
+                        MessageBox.Show($"Player {lblName1.Text} win!");
+                    }
+                    else
+                    {
+                        MessageBox.Show($"Player {lblName3.Text} win!");
+                    }
+                }
+            }
+
+            if (numPlayer.Text == "4")
+            {
+                if (index == 0)
+                {
+                    int keep1 = bank[0] = r;
+                    bank1.Text = keep1.ToString();
+                    player1.BackColor = Color.Green;
+                    player2.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.WhiteSmoke;
+                    player4.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[0] += keep1;
+                    score1.Text = score[0].ToString();
+                }
+                else if (index == 1)
+                {
+                    int keep2 = bank[1] = r;
+                    bank2.Text = keep2.ToString();
+                    player1.BackColor = Color.WhiteSmoke;
+                    player2.BackColor = Color.Green;
+                    player3.BackColor = Color.WhiteSmoke;
+                    player4.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[1] += keep2;
+                    score2.Text = score[1].ToString();
+                }
+                else if (index == 2)
+                {
+                    int keep3 = bank[2] = r;
+                    bank3.Text = keep3.ToString();
+                    player1.BackColor = Color.WhiteSmoke;
+                    player2.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.Green;
+                    player4.BackColor = Color.WhiteSmoke;
+                    index += 1;
+                    score[2] += keep3;
+                    score3.Text = score[2].ToString();
+                }
+                else
+                {
+                    int keep4 = bank[3] = r;
+                    bank4.Text = keep4.ToString();
+                    player2.BackColor = Color.WhiteSmoke;
+                    player1.BackColor = Color.WhiteSmoke;
+                    player3.BackColor = Color.WhiteSmoke;
+                    player4.BackColor = Color.Green;
+                    index -= index;
+                    remainRound += 1;
+                    score[3] += keep4;
+                    score4.Text = score[3].ToString();
+                }
+                if (remainRound.ToString() == lblMaxRound.Text)
+                {
+                    button1.Enabled = false;
+                    if (score[0] < score[1] &&
+                        score[2] < score[1] &&
+                        score[3] < score[1])
+                    {
+                        MessageBox.Show($"Player {lblName2.Text} win!");
+                    }
+                    else if (score[1] < score[0] &&
+                        score[2] < score[0] &&
+                        score[3] < score[0])
+                    {
+                        MessageBox.Show($"Player {lblName1.Text} win!");
+                    }
+                    else if (score[0] < score[3] &&
+                      score[1] < score[3] &&
+                      score[2] < score[3])
+                    {
+                        MessageBox.Show($"Player {lblName4.Text} win!");
+                    }
+                    else if (score[0] < score[2] &&
+                        score[1] < score[2] &&
+                        score[3] < score[2])
+                    {
+                        MessageBox.Show($"Player {lblName3.Text} win!");
+                    }
+                }
+            }
         }
     }
 }

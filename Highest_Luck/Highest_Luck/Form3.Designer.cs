@@ -30,7 +30,7 @@ namespace Highest_Luck
         private void InitializeComponent()
         {
             this.player1 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.bank1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.score1 = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
@@ -38,7 +38,7 @@ namespace Highest_Luck
             this.lblName = new System.Windows.Forms.Label();
             this.playerPic1 = new System.Windows.Forms.PictureBox();
             this.player2 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
+            this.bank2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.score2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@ namespace Highest_Luck
             this.label5 = new System.Windows.Forms.Label();
             this.playerPic2 = new System.Windows.Forms.PictureBox();
             this.player3 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
+            this.bank3 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.score3 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -54,7 +54,7 @@ namespace Highest_Luck
             this.label9 = new System.Windows.Forms.Label();
             this.playerPic3 = new System.Windows.Forms.PictureBox();
             this.player4 = new System.Windows.Forms.GroupBox();
-            this.label16 = new System.Windows.Forms.Label();
+            this.bank4 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.score4 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -81,7 +81,7 @@ namespace Highest_Luck
             // 
             // player1
             // 
-            this.player1.Controls.Add(this.label4);
+            this.player1.Controls.Add(this.bank1);
             this.player1.Controls.Add(this.label2);
             this.player1.Controls.Add(this.score1);
             this.player1.Controls.Add(this.lblScore);
@@ -95,15 +95,14 @@ namespace Highest_Luck
             this.player1.TabIndex = 0;
             this.player1.TabStop = false;
             // 
-            // label4
+            // bank1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(230, 177);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 25);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "0";
+            this.bank1.AutoSize = true;
+            this.bank1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bank1.Location = new System.Drawing.Point(230, 177);
+            this.bank1.Name = "bank1";
+            this.bank1.Size = new System.Drawing.Size(0, 25);
+            this.bank1.TabIndex = 6;
             // 
             // label2
             // 
@@ -121,9 +120,8 @@ namespace Highest_Luck
             this.score1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.score1.Location = new System.Drawing.Point(230, 120);
             this.score1.Name = "score1";
-            this.score1.Size = new System.Drawing.Size(22, 25);
+            this.score1.Size = new System.Drawing.Size(0, 25);
             this.score1.TabIndex = 4;
-            this.score1.Text = "0";
             // 
             // lblScore
             // 
@@ -166,7 +164,7 @@ namespace Highest_Luck
             // 
             // player2
             // 
-            this.player2.Controls.Add(this.label8);
+            this.player2.Controls.Add(this.bank2);
             this.player2.Controls.Add(this.label6);
             this.player2.Controls.Add(this.score2);
             this.player2.Controls.Add(this.label3);
@@ -180,15 +178,14 @@ namespace Highest_Luck
             this.player2.TabIndex = 1;
             this.player2.TabStop = false;
             // 
-            // label8
+            // bank2
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(230, 177);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 25);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "0";
+            this.bank2.AutoSize = true;
+            this.bank2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bank2.Location = new System.Drawing.Point(230, 177);
+            this.bank2.Name = "bank2";
+            this.bank2.Size = new System.Drawing.Size(0, 25);
+            this.bank2.TabIndex = 6;
             // 
             // label6
             // 
@@ -206,9 +203,8 @@ namespace Highest_Luck
             this.score2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.score2.Location = new System.Drawing.Point(230, 120);
             this.score2.Name = "score2";
-            this.score2.Size = new System.Drawing.Size(22, 25);
+            this.score2.Size = new System.Drawing.Size(0, 25);
             this.score2.TabIndex = 4;
-            this.score2.Text = "0";
             // 
             // label3
             // 
@@ -251,7 +247,7 @@ namespace Highest_Luck
             // 
             // player3
             // 
-            this.player3.Controls.Add(this.label14);
+            this.player3.Controls.Add(this.bank3);
             this.player3.Controls.Add(this.label10);
             this.player3.Controls.Add(this.score3);
             this.player3.Controls.Add(this.label7);
@@ -265,15 +261,15 @@ namespace Highest_Luck
             this.player3.TabIndex = 2;
             this.player3.TabStop = false;
             // 
-            // label14
+            // bank3
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(230, 180);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 25);
-            this.label14.TabIndex = 6;
-            this.label14.Text = "0";
+            this.bank3.AutoSize = true;
+            this.bank3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bank3.Location = new System.Drawing.Point(230, 180);
+            this.bank3.Name = "bank3";
+            this.bank3.Size = new System.Drawing.Size(22, 25);
+            this.bank3.TabIndex = 6;
+            this.bank3.Text = "0";
             // 
             // label10
             // 
@@ -336,7 +332,7 @@ namespace Highest_Luck
             // 
             // player4
             // 
-            this.player4.Controls.Add(this.label16);
+            this.player4.Controls.Add(this.bank4);
             this.player4.Controls.Add(this.label15);
             this.player4.Controls.Add(this.score4);
             this.player4.Controls.Add(this.label11);
@@ -350,15 +346,15 @@ namespace Highest_Luck
             this.player4.TabIndex = 5;
             this.player4.TabStop = false;
             // 
-            // label16
+            // bank4
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label16.Location = new System.Drawing.Point(227, 180);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(22, 25);
-            this.label16.TabIndex = 6;
-            this.label16.Text = "0";
+            this.bank4.AutoSize = true;
+            this.bank4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.bank4.Location = new System.Drawing.Point(227, 180);
+            this.bank4.Name = "bank4";
+            this.bank4.Size = new System.Drawing.Size(22, 25);
+            this.bank4.TabIndex = 6;
+            this.bank4.Text = "0";
             // 
             // label15
             // 
@@ -454,7 +450,7 @@ namespace Highest_Luck
             // 
             this.lblMaxRound.AutoSize = true;
             this.lblMaxRound.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblMaxRound.Location = new System.Drawing.Point(504, 54);
+            this.lblMaxRound.Location = new System.Drawing.Point(526, 54);
             this.lblMaxRound.Name = "lblMaxRound";
             this.lblMaxRound.Size = new System.Drawing.Size(37, 45);
             this.lblMaxRound.TabIndex = 9;
@@ -464,7 +460,7 @@ namespace Highest_Luck
             // 
             this.lblRemainRound.AutoSize = true;
             this.lblRemainRound.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblRemainRound.Location = new System.Drawing.Point(445, 54);
+            this.lblRemainRound.Location = new System.Drawing.Point(421, 54);
             this.lblRemainRound.Name = "lblRemainRound";
             this.lblRemainRound.Size = new System.Drawing.Size(37, 45);
             this.lblRemainRound.TabIndex = 10;
@@ -474,7 +470,7 @@ namespace Highest_Luck
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(477, 54);
+            this.label12.Location = new System.Drawing.Point(478, 54);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(32, 45);
             this.label12.TabIndex = 11;
@@ -572,13 +568,13 @@ namespace Highest_Luck
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label players;
         private System.Windows.Forms.Label numberPlayer;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label bank1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label bank2;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label bank3;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label bank4;
         private System.Windows.Forms.Label label15;
     }
 }
