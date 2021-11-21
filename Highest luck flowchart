@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T11:11:43.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pEdTh94Xupc4e8iE9MjJ" version="15.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-21T17:02:39.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="KegUzakEWFz_BwBn0mTV" version="15.8.0" type="github">
   <diagram id="R7f3Kc4ornFlDqILu0hz" name="How things work">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,12 +44,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RV0tAzzqII24Cr5fdHgK-12" value="&lt;h1&gt;If(succeeded)&lt;/h1&gt;&lt;div&gt;If player haven&#39;t done anything wrong that leads to any objection cases, the program will pass all the data that user has filled into Form3.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If there are 2 players, the playground will only show 2 players at the match, if there are 3 players, the playground will be 3 players.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="20" y="40" width="240" height="380" as="geometry" />
+          <mxGeometry x="20" y="40" width="240" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="RV0tAzzqII24Cr5fdHgK-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.996;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-3" target="RV0tAzzqII24Cr5fdHgK-12">
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="200" as="sourcePoint" />
-            <mxPoint x="569.04" y="199.89999999999998" as="targetPoint" />
+            <mxPoint x="260" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RV0tAzzqII24Cr5fdHgK-15" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Roll dice&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
