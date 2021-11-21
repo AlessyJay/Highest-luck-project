@@ -10,3 +10,5 @@ https://github.com/AlessyJay
 
 Thank you for your time reading
 this note, regards.
+
+Peeranat Somboonsirikul, 59961, group no.3
