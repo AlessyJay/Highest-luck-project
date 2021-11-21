@@ -95,7 +95,6 @@ namespace Highest_Luck
                     index += 1;
                     score[0] += keep1;
                     score1.Text = score[0].ToString();
-                    remainRound += 1;
                     keep2 = 0;
                     bank2.Text = keep2.ToString();
                 }
@@ -107,6 +106,7 @@ namespace Highest_Luck
                     player2.BackColor = Color.Green;
                     player1.BackColor = Color.WhiteSmoke;
                     index -= index;
+                    remainRound += 1;
                     score[1] += keep2;
                     score2.Text = score[1].ToString();
                     keep1 = 0;
@@ -118,9 +118,12 @@ namespace Highest_Luck
                     if (score[0] < score[1])
                     {
                         MessageBox.Show($"Player {lblName2.Text} win!");
-                    }else
+                        player2.BackColor = Color.WhiteSmoke;
+                    }
+                    else
                     {
                         MessageBox.Show($"Player {lblName1.Text} win!");
+                        player2.BackColor = Color.WhiteSmoke;
                     }
                 }
             }
@@ -187,17 +190,19 @@ namespace Highest_Luck
                         score[3] < score[1])
                     {
                         MessageBox.Show($"Player {lblName2.Text} win!");
-                        
+                        player3.BackColor = Color.WhiteSmoke;
                     }
                     else if (score[1] < score[0] &&
                        score[2] < score[0] &&
                        score[3] < score[0])
                     {
                         MessageBox.Show($"Player {lblName1.Text} win!");
+                        player3.BackColor = Color.WhiteSmoke;
                     }
                     else
                     {
                         MessageBox.Show($"Player {lblName3.Text} win!");
+                        player3.BackColor = Color.WhiteSmoke;
                     }
                 }
             }
@@ -297,24 +302,28 @@ namespace Highest_Luck
                         score[3] < score[1])
                     {
                         MessageBox.Show($"Player {lblName2.Text} win!");
+                        player4.BackColor = Color.WhiteSmoke;
                     }
                     else if (score[1] < score[0] &&
                         score[2] < score[0] &&
                         score[3] < score[0])
                     {
                         MessageBox.Show($"Player {lblName1.Text} win!");
+                        player4.BackColor = Color.WhiteSmoke;
                     }
                     else if (score[0] < score[3] &&
                       score[1] < score[3] &&
                       score[2] < score[3])
                     {
                         MessageBox.Show($"Player {lblName4.Text} win!");
+                        player4.BackColor = Color.WhiteSmoke;
                     }
                     else if (score[0] < score[2] &&
                         score[1] < score[2] &&
                         score[3] < score[2])
                     {
                         MessageBox.Show($"Player {lblName3.Text} win!");
+                        player4.BackColor = Color.WhiteSmoke;
                     }
                 }
             }
