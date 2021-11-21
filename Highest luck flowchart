@@ -1,1 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2021-11-17T17:21:38.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.7.3" etag="l8F1y2ThJ3badoqBhHsV" type="github"><diagram id="R7f3Kc4ornFlDqILu0hz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-21T10:18:17.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OhCxEGqHDMsQQJ_EUKG8" version="15.8.0" type="github" pages="2">
+  <diagram id="R7f3Kc4ornFlDqILu0hz" name="How things work">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-1" value="&lt;font style=&quot;font-size: 18px&quot;&gt;Main menu&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="319" y="150" width="189" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-1" target="RV0tAzzqII24Cr5fdHgK-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-5" value="Form2 (setup form)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="327" y="180" width="174" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-3" target="RV0tAzzqII24Cr5fdHgK-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="110" as="sourcePoint" />
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-7" value="Form3 (playground)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="319" y="320" width="186" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-8" value="&lt;h1&gt;If(objections)&lt;/h1&gt;&lt;div&gt;If player puts wrong amount of players, the program will throw new error of invalid number.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If player press start button without filling up the player amount, the program will throw new error.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If player leave some of players name blank or pictures. The program will throw new error.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="240" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.004;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RV0tAzzqII24Cr5fdHgK-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="423.5" y="250" as="sourcePoint" />
+            <mxPoint x="412" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-12" value="&lt;h1&gt;If(succeeded)&lt;/h1&gt;&lt;div&gt;If player haven&#39;t done anything wrong that leads to any objection cases, the program will pass all the data that user has filled into Form3.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;If there are 2 players, the playground will only show 2 players at the match, if there are 3 players, the playground will be 3 players.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="240" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;entryX=0.996;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-3" target="RV0tAzzqII24Cr5fdHgK-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="200" as="sourcePoint" />
+            <mxPoint x="569.04" y="199.89999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-15" value="&lt;span style=&quot;font-size: 18px&quot;&gt;Roll dice&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=36;" vertex="1" parent="1">
+          <mxGeometry x="354" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-16" value="&lt;h1&gt;Dice rolling&lt;/h1&gt;&lt;div&gt;Dice can have 1 - 6 and it&#39;ll be completely random when players clicked on it.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dice will start on first player, always. When dice is rolled, the current score(bank) will be stored to the total score of which player gained their luck with dice.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The background of player will be green if the current player is playing at the time, the rest will be gray to let other players know that it&#39;s not their turn yet.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="30" y="520" width="240" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-15" target="RV0tAzzqII24Cr5fdHgK-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329" y="205" as="sourcePoint" />
+            <mxPoint x="260" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-18" value="onRollDice();" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-20" value="&lt;h1&gt;Dice rolled&lt;/h1&gt;&lt;div&gt;When dice rolled through starting person (1st player), the remaining round will count by 1 until it reach the maximum round that player provide in the setting page (Form2).&lt;/div&gt;&lt;div&gt;&lt;p&gt;Players&#39; bank will be return to 0 when it is another player&#39;s round.&lt;/p&gt;&lt;p&gt;When the remaining round meets with the maximum round the program will announce who&#39;s the winner of the match.&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="560" y="520" width="240" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-21" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-15" target="RV0tAzzqII24Cr5fdHgK-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="362" y="580" as="sourcePoint" />
+            <mxPoint x="281.9200000000001" y="579.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RV0tAzzqII24Cr5fdHgK-22" value="Copyright&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; font-weight: 700 ; background-color: rgb(255 , 255 , 255)&quot;&gt;© Peeranat Somboonsirikul 2021&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="255.5" y="1110" width="313" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYol3AUnxQmAGKNHwNP-1" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="354" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYol3AUnxQmAGKNHwNP-2" value="" style="endArrow=classic;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="UcYol3AUnxQmAGKNHwNP-3" target="UcYol3AUnxQmAGKNHwNP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="580" as="sourcePoint" />
+            <mxPoint x="570" y="579.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcYol3AUnxQmAGKNHwNP-3" value="Dice meets the maximum round length" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="329" y="670" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UcYol3AUnxQmAGKNHwNP-4" value="" style="endArrow=none;html=1;rounded=0;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RV0tAzzqII24Cr5fdHgK-15" target="UcYol3AUnxQmAGKNHwNP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="414" y="610" as="sourcePoint" />
+            <mxPoint x="414" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wUXsHlxRjJy3s3jwHqPB" name="How code works">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RtCkHvIgk3Am-Y_M0_gv-0" />
+        <mxCell id="RtCkHvIgk3Am-Y_M0_gv-1" parent="RtCkHvIgk3Am-Y_M0_gv-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
