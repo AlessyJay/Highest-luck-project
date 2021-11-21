@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj": {}
+    "D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj": {}
   },
   "projects": {
-    "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj": {
+    "D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj",
+        "projectUniqueName": "D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj",
         "projectName": "Highest_Luck",
-        "projectPath": "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj",
+        "projectPath": "D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\Highest_Luck.csproj",
         "packagesPath": "C:\\Users\\peera\\.nuget\\packages\\",
-        "outputPath": "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\obj\\",
+        "outputPath": "D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

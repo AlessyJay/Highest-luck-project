@@ -26,12 +26,13 @@ namespace Highest_Luck
         private string pic5;
 
         //Destructure the picture variables
-        string dogPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\dog.jpg";
-        string birdPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\bluebird.jpg";
-        string manPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\man.jpg";
-        string markPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\mark.png";
-        string confusedPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\confused.jpg";
-
+        //D:\\Vistula\\OOP\\59961_Hoard Warriors of OOP_highest luck_project 1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\
+        string dogPic = "Picture\\dog.jpg";
+        string birdPic = "Picture\\bluebird.jpg";
+        string manPic = "Picture\\man.jpg";
+        string markPic = "Picture\\mark.png";
+        string confusedPic = "Picture\\confused.jpg";
+        
         //Encapsulate the variables to prevent mistakes from another Form.
         public string Name1
         {
