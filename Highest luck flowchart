@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-21T10:18:17.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="OhCxEGqHDMsQQJ_EUKG8" version="15.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-11-21T11:11:43.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="pEdTh94Xupc4e8iE9MjJ" version="15.8.0" type="github">
   <diagram id="R7f3Kc4ornFlDqILu0hz" name="How things work">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,14 +97,6 @@
             <mxPoint x="414" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="wUXsHlxRjJy3s3jwHqPB" name="How code works">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="RtCkHvIgk3Am-Y_M0_gv-0" />
-        <mxCell id="RtCkHvIgk3Am-Y_M0_gv-1" parent="RtCkHvIgk3Am-Y_M0_gv-0" />
       </root>
     </mxGraphModel>
   </diagram>
