@@ -10,7 +10,10 @@ namespace Highest_Luck
 {
     public partial class Form3 : Form
     {
+        //Instance for Form3 to connect with Form2
         public static Form3 instance;
+         
+        //Create public instance and pass it through constructor.
         public Label lblName1;
         public Label lblName2;
         public Label lblName3;
@@ -27,15 +30,17 @@ namespace Highest_Luck
         public PictureBox pic4;
 
         Random random = new Random();
-        int remainRound = 1;
-        int[] score = new int[4];
-        int[] bank = new int[4];
-        int index = 0;
+        int remainRound = 1; //Round will always starting on the 1st, which is fact! :)
+        int[] score = new int[4]; //Create 4 score for 4 people using array, store each person score into each array index.
+        int[] bank = new int[4]; //Create 4 bank for 4 people using array, store each person bank into each array index before moving into score index.
+        int index = 0; //Player index, telling the program that which player is now playing and rule the round counting!
 
         public Form3()
         {
             InitializeComponent();
             instance = this;
+
+            //Link public instance with an actual label and pictureBox inside of Form3 aka playground.
             lblName1 = playerName1;
             lblName2 = playerName2;
             lblName3 = playerName3;
@@ -50,12 +55,15 @@ namespace Highest_Luck
             pic2 = playerPic2;
             pic3 = playerPic3;
             pic4 = playerPic4;
+
+            //Make the rest of player invisible since the minumum player is 2 to begin the playground.
             player3.Visible = false;
             player4.Visible = false;
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            //Field validation for unlocking more players with number of player that player put in before entering the playground.
             lblRemainRound.Text = remainRound.ToString();
             if (numPlayer.Text == "3")
             {
@@ -79,10 +87,12 @@ namespace Highest_Luck
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //Random numbers between 1 to 6 and show it above the roll button.
             int r = random.Next(1, (6 + 1));
             randomNumber.Text = r.ToString();
             lblRemainRound.Text = remainRound.ToString();
 
+            //Dice rolling validation for players, using index as we decleared on the top (line 36) to rule whose turn it is.
             if (numPlayer.Text == "2")
             {
                 if (index == 0)

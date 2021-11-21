@@ -10,6 +10,7 @@ namespace Highest_Luck
 {
     public partial class Form2 : Form
     {
+        //Create an instance object for Form2 to link with Form3, passing players' data with instance. 
         public static Form2 instance;
         private string name1;
         private string name2;
@@ -24,12 +25,14 @@ namespace Highest_Luck
         private string pic4;
         private string pic5;
 
+        //Destructure the picture variables
         string dogPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\dog.jpg";
         string birdPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\bluebird.jpg";
         string manPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\man.jpg";
         string markPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\mark.png";
         string confusedPic = "D:\\Vistula\\OOP\\59961_Hoard-Warriors-of-OOP_highest_luck_project_1\\Highest_Luck\\Highest_Luck\\bin\\Debug\\Picture\\confused.jpg";
 
+        //Encapsulate the variables to prevent mistakes from another Form.
         public string Name1
         {
             get { return name1; }
@@ -176,6 +179,7 @@ namespace Highest_Luck
             NumPlayerParse = int.Parse(txtNumberOfPlayer.Text);
             RoundNumParse = int.Parse(txtRound.Text);
 
+            //Setup box for how many players are attending and how many rounds are they going to play.
             if (NumPlayerParse < 2 || NumPlayerParse > 4)
             {
                 lblErrorNumPlayer.ForeColor = Color.Red;
@@ -236,6 +240,7 @@ namespace Highest_Luck
 
             Form3 f3 = new Form3();
 
+            //playersBox numbers and rounds validation if player clicked start button without finishing the setup box.
             if (lblErrorNumPlayer.Text != "OK" || lblErrorRound.Text != "OK")
             {
                 lblErrorStart.ForeColor = Color.Red;
@@ -244,6 +249,7 @@ namespace Highest_Luck
                     $"and rounds before starting the game!";
             }
 
+            //Methology of validation for players setting before entering the playground.
             if (NumPlayerParse == 2)
             {
                 if (Name1.Trim() == "" || Name2.Trim() == "" &&
