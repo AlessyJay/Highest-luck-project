@@ -226,9 +226,11 @@ namespace Highest_Luck
             // 
             // previewPic4
             // 
+            this.previewPic4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.previewPic4.Location = new System.Drawing.Point(398, 22);
             this.previewPic4.Name = "previewPic4";
             this.previewPic4.Size = new System.Drawing.Size(147, 111);
+            this.previewPic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.previewPic4.TabIndex = 12;
             this.previewPic4.TabStop = false;
             // 

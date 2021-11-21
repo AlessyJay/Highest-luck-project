@@ -66,7 +66,6 @@ namespace Highest_Luck
                 player3.Visible = true;
                 player4.Visible = true;
             }
-            player1.BackColor = Color.Green;
             bank1.Text = bank[0].ToString();
             bank2.Text = bank[1].ToString();
             bank3.Text = bank[2].ToString();
@@ -89,25 +88,31 @@ namespace Highest_Luck
                 if (index == 0)
                 {
                     int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
                     bank1.Text = keep1.ToString();
                     player1.BackColor = Color.Green;
                     player2.BackColor = Color.WhiteSmoke;
                     index += 1;
                     score[0] += keep1;
                     score1.Text = score[0].ToString();
+                    remainRound += 1;
+                    keep2 = 0;
+                    bank2.Text = keep2.ToString();
                 }
                 else
                 {
+                    int keep1 = bank[0] = r;
                     int keep2 = bank[1] = r;
                     bank2.Text = keep2.ToString();
                     player2.BackColor = Color.Green;
                     player1.BackColor = Color.WhiteSmoke;
-                    index -= 1;
-                    remainRound += 1;
+                    index -= index;
                     score[1] += keep2;
                     score2.Text = score[1].ToString();
+                    keep1 = 0;
+                    bank1.Text = keep1.ToString();
                 }
-                if (remainRound.ToString() == lblMaxRound.Text)
+                if (remainRound >= int.Parse(MaxRound.Text) + 1)
                 {
                     button1.Enabled = false;
                     if (score[0] < score[1])
@@ -125,6 +130,8 @@ namespace Highest_Luck
                 if (index == 0)
                 {
                     int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
+                    int keep3 = bank[2] = r;
                     bank1.Text = keep1.ToString();
                     player1.BackColor = Color.Green;
                     player2.BackColor = Color.WhiteSmoke;
@@ -132,10 +139,16 @@ namespace Highest_Luck
                     index += 1;
                     score[0] += keep1;
                     score1.Text = score[0].ToString();
+                    keep2 = 0;
+                    keep3 = 0;
+                    bank2.Text = keep2.ToString();
+                    bank3.Text = keep3.ToString();
                 }
                 else if (index == 1)
                 {
+                    int keep1 = bank[0] = r;
                     int keep2 = bank[1] = r;
+                    int keep3 = bank[2] = r;
                     bank2.Text = keep2.ToString();
                     player2.BackColor = Color.Green;
                     player1.BackColor = Color.WhiteSmoke;
@@ -143,9 +156,15 @@ namespace Highest_Luck
                     index += 1;
                     score[1] += keep2;
                     score2.Text = score[1].ToString();
+                    keep1 = 0;
+                    keep3 = 0;
+                    bank1.Text = keep1.ToString();
+                    bank3.Text = keep3.ToString();
                 }
                 else
                 {
+                    int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
                     int keep3 = bank[2] = r;
                     bank3.Text = keep3.ToString();
                     player2.BackColor = Color.WhiteSmoke;
@@ -155,8 +174,12 @@ namespace Highest_Luck
                     remainRound += 1;
                     score[2] += keep3;
                     score3.Text = score[2].ToString();
+                    keep1 = 0;
+                    keep2 = 0;
+                    bank1.Text = keep1.ToString();
+                    bank2.Text = keep2.ToString();
                 }
-                if (remainRound.ToString() == lblMaxRound.Text)
+                if (remainRound >= int.Parse(lblMaxRound.Text) + 1)
                 {
                     button1.Enabled = false;
                     if (score[0] < score[1] &&
@@ -164,6 +187,7 @@ namespace Highest_Luck
                         score[3] < score[1])
                     {
                         MessageBox.Show($"Player {lblName2.Text} win!");
+                        
                     }
                     else if (score[1] < score[0] &&
                        score[2] < score[0] &&
@@ -183,6 +207,9 @@ namespace Highest_Luck
                 if (index == 0)
                 {
                     int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
+                    int keep3 = bank[2] = r;
+                    int keep4 = bank[3] = r;
                     bank1.Text = keep1.ToString();
                     player1.BackColor = Color.Green;
                     player2.BackColor = Color.WhiteSmoke;
@@ -191,10 +218,19 @@ namespace Highest_Luck
                     index += 1;
                     score[0] += keep1;
                     score1.Text = score[0].ToString();
+                    keep2 = 0;
+                    keep3 = 0;
+                    keep4 = 0;
+                    bank2.Text = keep2.ToString();
+                    bank3.Text = keep3.ToString();
+                    bank4.Text = keep4.ToString();
                 }
                 else if (index == 1)
                 {
+                    int keep1 = bank[0] = r;
                     int keep2 = bank[1] = r;
+                    int keep3 = bank[2] = r;
+                    int keep4 = bank[3] = r;
                     bank2.Text = keep2.ToString();
                     player1.BackColor = Color.WhiteSmoke;
                     player2.BackColor = Color.Green;
@@ -203,10 +239,19 @@ namespace Highest_Luck
                     index += 1;
                     score[1] += keep2;
                     score2.Text = score[1].ToString();
+                    keep1 = 0;
+                    keep3 = 0;
+                    keep4 = 0;
+                    bank1.Text = keep1.ToString();
+                    bank3.Text = keep3.ToString();
+                    bank4.Text = keep4.ToString();
                 }
                 else if (index == 2)
                 {
+                    int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
                     int keep3 = bank[2] = r;
+                    int keep4 = bank[3] = r;
                     bank3.Text = keep3.ToString();
                     player1.BackColor = Color.WhiteSmoke;
                     player2.BackColor = Color.WhiteSmoke;
@@ -215,9 +260,18 @@ namespace Highest_Luck
                     index += 1;
                     score[2] += keep3;
                     score3.Text = score[2].ToString();
+                    keep1 = 0;
+                    keep2 = 0;
+                    keep4 = 0;
+                    bank1.Text = keep1.ToString();
+                    bank2.Text = keep2.ToString();
+                    bank4.Text = keep4.ToString();
                 }
                 else
                 {
+                    int keep1 = bank[0] = r;
+                    int keep2 = bank[1] = r;
+                    int keep3 = bank[2] = r;
                     int keep4 = bank[3] = r;
                     bank4.Text = keep4.ToString();
                     player2.BackColor = Color.WhiteSmoke;
@@ -228,8 +282,14 @@ namespace Highest_Luck
                     remainRound += 1;
                     score[3] += keep4;
                     score4.Text = score[3].ToString();
+                    keep1 = 0;
+                    keep2 = 0;
+                    keep3 = 0;
+                    bank1.Text = keep1.ToString();
+                    bank2.Text = keep2.ToString();
+                    bank3.Text = keep3.ToString();
                 }
-                if (remainRound.ToString() == lblMaxRound.Text)
+                if (remainRound >= int.Parse(lblMaxRound.Text) + 1)
                 {
                     button1.Enabled = false;
                     if (score[0] < score[1] &&

@@ -229,7 +229,6 @@ namespace Highest_Luck
         private void button1_Click(object sender, EventArgs e)
         {
             //Start button
-
             Name1 = namePlayer1.Text;
             Name2 = namePlayer2.Text;
             Name3 = namePlayer3.Text;
@@ -247,7 +246,8 @@ namespace Highest_Luck
 
             if (NumPlayerParse == 2)
             {
-                if (Name1.Trim() == "" || Name2.Trim() == "")
+                if (Name1.Trim() == "" || Name2.Trim() == "" &&
+                    previewPic1.Image == previewPic2.Image)
                 {
                     lblErrorStart.ForeColor = Color.Red;
                     lblErrorStart.BackColor = Color.Transparent;
